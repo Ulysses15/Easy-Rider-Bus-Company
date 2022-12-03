@@ -1,0 +1,23 @@
+<h2>Test for attentiveness</h2>
+<p>Take a look at the following code snippet. First, we retrieve data from the main page of <a target="_blank" target="_blank" target="_blank" target="_blank" target="_blank" href="https://docs.python.org/3/" rel="noopener noreferrer nofollow">Python's documentation</a>. Then we want to check if the content of the resource is represented in <samp>ISO-8859-1</samp>. If it is not, the program should print the message "You should change the encoding."</p>
+
+<pre><code class="language-python">import requests
+
+
+url = 'https://docs.python.org/3/'
+r = request.get(url)
+
+if r.encoding == 'ISO-8859-1':
+    print('Right encoding!')
+else:
+    print('You should change the encoding.')
+</code></pre>
+
+<p>There might be some mistakes in the code: look carefully through all names and syntactic patterns. If you find any mistakes, below, <strong>write just the correct version of the wrong lines</strong> — each one on a new line, in the same order as in the code. If you do not find any mistakes, just type "No".</p>
+
+<p><button
+        class="btn-sm btn-outline-secondary"
+        onclick="getElementById('hint-993').style.display='inline'">
+        Hint
+      </button>
+      <div id="hint-993" style="display:none;">Sometimes spelling matters!</div></p>

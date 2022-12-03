@@ -1,0 +1,14 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    import requests
+
+
+    def do_search(bookstore_url, params):
+        pass
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8610#comment
+status: Solved
+record: -1

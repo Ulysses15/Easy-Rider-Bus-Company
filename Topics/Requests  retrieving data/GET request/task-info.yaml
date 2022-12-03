@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: To retrieve information from the server
+- text: To get a new page published online
+- text: To get the URL of the page
+- text: To send data to the server and update the resource
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8605#comment
+status: Solved
+record: -1
+local_check: false
